@@ -1,0 +1,24 @@
+﻿<Window x:Class="Vistas.ViewPagos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vistas"
+        mc:Ignorable="d"
+        Title="ViewPagos" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="341" Margin="294,37,0,0" VerticalAlignment="Top" Width="359" SelectionChanged="salida_SelectionChanged"/>
+        <DatePicker x:Name="fechapago" HorizontalAlignment="Left" Margin="119,96,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="total" HorizontalAlignment="Left" Height="30" Margin="119,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="idventa" HorizontalAlignment="Left" Height="30" Margin="119,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <TextBox x:Name="idpago" HorizontalAlignment="Left" Height="30" Margin="119,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <TextBox x:Name="idusuario" HorizontalAlignment="Left" Height="30" Margin="119,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <Label Content="Id Pago" HorizontalAlignment="Left" Margin="29,55,0,0" VerticalAlignment="Top" Height="33"/>
+        <Label Content="Fecha de Pago" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top" Height="33"/>
+        <Label Content="Total Pagado" HorizontalAlignment="Left" Margin="29,136,0,0" VerticalAlignment="Top" Height="33"/>
+        <Label Content="Id Venta" HorizontalAlignment="Left" Margin="29,176,0,0" VerticalAlignment="Top" Height="34"/>
+        <Label Content="Id Usuario" HorizontalAlignment="Left" Margin="29,217,0,0" VerticalAlignment="Top" Height="33"/>
+        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="188,281,0,0" VerticalAlignment="Top" Width="75" Click="Actualizar_Click"/>
+
+    </Grid>
+</Window>

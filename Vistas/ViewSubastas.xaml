@@ -1,0 +1,36 @@
+﻿<Window x:Class="Vistas.ViewSubastas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vistas"
+        mc:Ignorable="d"
+        Title="ViewSubastas" Height="443.088" Width="864.561">
+    <Grid>
+        <Label Content="Subastas" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="102,25,0,0" Width="150" FontWeight="Bold" FontSize="30"/>
+        <Label Content="Medio de Transporte" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="405,25,0,0" Width="359" FontWeight="Bold" FontSize="30"/>
+        <DataGrid x:Name="salidasub" HorizontalAlignment="Left" Height="247" Margin="56,80,0,0" VerticalAlignment="Top" Width="244" SelectionChanged="salidasub_SelectionChanged" />
+        <DataGrid x:Name="salidamed" HorizontalAlignment="Left" Height="247" Margin="341,80,0,0" VerticalAlignment="Top" Width="244" SelectionChanged="salidamed_SelectionChanged"/>
+        <TextBox x:Name="Id" HorizontalAlignment="Left" Height="23" Margin="709,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="patente" HorizontalAlignment="Left" Height="23" Margin="709,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ancho" HorizontalAlignment="Left" Height="23" Margin="709,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="largo" HorizontalAlignment="Left" Height="23" Margin="709,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="alto" HorizontalAlignment="Left" Height="23" Margin="709,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="capacidad" HorizontalAlignment="Left" Height="23" Margin="709,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="refri" HorizontalAlignment="Left" Height="23" Margin="709,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="precio" HorizontalAlignment="Left" Height="23" Margin="709,276,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID Medio" HorizontalAlignment="Left" Margin="604,80,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Patente" HorizontalAlignment="Left" Margin="604,108,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Ancho" HorizontalAlignment="Left" Margin="604,136,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Largo" HorizontalAlignment="Left" Margin="604,164,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Alto" HorizontalAlignment="Left" Margin="604,192,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Capacidad" HorizontalAlignment="Left" Margin="604,220,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Precio" HorizontalAlignment="Left" Margin="604,276,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Transportista" HorizontalAlignment="Left" Margin="604,304,0,0" VerticalAlignment="Top" Height="23"/>
+        <Button x:Name="Cancelar" Content="Cancelar Subasta" HorizontalAlignment="Left" Margin="56,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Cancelar_Click"/>
+        <Button x:Name="Aceptar" Content="Aceptar Medio" HorizontalAlignment="Left" Margin="484,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Aceptar_Click"/>
+        <TextBox x:Name="transportista" HorizontalAlignment="Left" Height="23" Margin="709,304,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Refrigeración" HorizontalAlignment="Left" Margin="604,248,0,0" VerticalAlignment="Top" Height="23"/>
+
+    </Grid>
+</Window>

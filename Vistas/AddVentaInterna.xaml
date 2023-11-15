@@ -1,0 +1,40 @@
+﻿<Window x:Class="Vistas.AddVentaInterna"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vistas"
+        mc:Ignorable="d"
+        Title="AddVentaInterna" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tipo de Venta" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Fecha de Venta" HorizontalAlignment="Left" Margin="30,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Total Venta" HorizontalAlignment="Left" Margin="30,72,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="FechaVenta" HorizontalAlignment="Left" Margin="151,43,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TotalVenta" HorizontalAlignment="Left" Height="23" Margin="151,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" PreviewTextInput="NumberValidationTextBox" IsEnabled="False"/>
+        <Label Content="Estado Venta" HorizontalAlignment="Left" Margin="30,103,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="EstadoVenta" HorizontalAlignment="Left" Margin="151,106,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="4" IsEnabled="False">
+            <ComboBoxItem Content="Completada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Cancelada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="En Tránsito" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Aprobada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Pendiente" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <ComboBox x:Name="TipoVenta" HorizontalAlignment="Left" Margin="151,13,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="0" IsEnabled="False">
+            <ComboBoxItem Content="Venta Interna" HorizontalAlignment="Left" Width="118.4" IsEnabled="False"/>
+        </ComboBox>
+        <Label Content="Transporte" HorizontalAlignment="Left" Margin="30,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Productor" HorizontalAlignment="Left" Margin="30,165,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cliente" HorizontalAlignment="Left" Margin="30,196,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Transportista" HorizontalAlignment="Left" Height="23" Margin="151,136,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <TextBox x:Name="Productor" HorizontalAlignment="Left" Height="23" Margin="151,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <TextBox x:Name="Cliente" HorizontalAlignment="Left" Height="23" Margin="151,198,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="151,289,0,0" VerticalAlignment="Top" Width="144" Click="Start_Click"/>
+        <DataGrid x:Name="Salida" HorizontalAlignment="Left" Height="254" Margin="345,13,0,0" VerticalAlignment="Top" Width="419" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Label Content="Producto" HorizontalAlignment="Left" Margin="30,227,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="30,258,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Cantidad" HorizontalAlignment="Left" Height="23" Margin="151,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" TextChanged="Cantidad_TextChanged"/>
+        <TextBox x:Name="Producto" HorizontalAlignment="Left" Height="23" Margin="151,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
+
+    </Grid>
+</Window>

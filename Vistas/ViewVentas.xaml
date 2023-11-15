@@ -1,0 +1,26 @@
+﻿<Window x:Class="Vistas.ViewVentas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vistas"
+        mc:Ignorable="d"
+        Title="ViewVentas" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="310" Margin="335,31,0,0" VerticalAlignment="Top" Width="423" SelectionChanged="salida_SelectionChanged"/>
+        <Button x:Name="CambiaEstado" Content="Cambiar Estado" HorizontalAlignment="Left" Margin="33,59,0,0" VerticalAlignment="Top" Width="241" Click="CambiaEstado_Click"/>
+        <Label Content="Estado Venta" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="EstadoVenta" HorizontalAlignment="Left" Margin="151,31,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Completada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Cancelada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="En Tránsito" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Aprobada" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="Pendiente" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <Label Content="Transporte" HorizontalAlignment="Left" Margin="30,156,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Transportista" HorizontalAlignment="Left" Height="23" Margin="151,164,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Left" Margin="30,187,0,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click"/>
+        <Button Content="Ver Transporte" HorizontalAlignment="Left" Margin="33,211,0,0" VerticalAlignment="Top" Width="238"/>
+
+    </Grid>
+</Window>

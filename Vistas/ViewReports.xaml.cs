@@ -33,6 +33,7 @@ namespace Vistas
             salida.DataContext = vc.GetAllVentas();
         }
 
+
         private void Externas_Click(object sender, RoutedEventArgs e)
         {
             salida.ItemsSource = vc.GetVentaByType("Venta Externa");

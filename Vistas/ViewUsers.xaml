@@ -7,9 +7,7 @@
         mc:Ignorable="d"
         Title="ViewUsers" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dguser" HorizontalAlignment="Left" Height="304" Margin="290,54,0,0" VerticalAlignment="Top" Width="464" SelectionChanged="dguser_SelectionChanged"/>
-        <TextBox x:Name="BuscarText" HorizontalAlignment="Left" Height="28" Margin="393,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361"/>
-        <Button x:Name="BuscarButton" Content="Buscar" HorizontalAlignment="Left" Margin="290,26,0,0" VerticalAlignment="Top" Width="98"/>
+        <DataGrid x:Name="dguser" HorizontalAlignment="Left" Height="321" Margin="290,37,0,0" VerticalAlignment="Top" Width="464" SelectionChanged="dguser_SelectionChanged"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="40,37,0,0" VerticalAlignment="Top" Width="82"/>
         <TextBox x:Name="Nombre" HorizontalAlignment="Left" Height="23" Margin="127,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="40,329,0,0" VerticalAlignment="Top" Width="88" Click="Agregar_Click"/>

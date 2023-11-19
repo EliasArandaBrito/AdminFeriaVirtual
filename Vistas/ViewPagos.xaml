@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="ViewPagos" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="341" Margin="294,37,0,0" VerticalAlignment="Top" Width="359" SelectionChanged="salida_SelectionChanged"/>
+        <DataGrid x:Name="salida" Height="341" Margin="294,37,0,0" VerticalAlignment="Top" SelectionChanged="salida_SelectionChanged" HorizontalAlignment="Left" Width="359"/>
         <DatePicker x:Name="fechapago" HorizontalAlignment="Left" Margin="119,96,0,0" VerticalAlignment="Top" Height="30"/>
-        <TextBox x:Name="total" HorizontalAlignment="Left" Height="30" Margin="119,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="total" Height="30" Margin="119,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="144"/>
         <TextBox x:Name="idventa" HorizontalAlignment="Left" Height="30" Margin="119,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
         <TextBox x:Name="idpago" HorizontalAlignment="Left" Height="30" Margin="119,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
         <TextBox x:Name="idusuario" HorizontalAlignment="Left" Height="30" Margin="119,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>

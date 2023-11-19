@@ -9,7 +9,6 @@
     <Grid>
         <Button x:Name="Internas" Content="Ventas Internas" HorizontalAlignment="Left" Margin="320,341,0,0" VerticalAlignment="Top" Width="140" Click="Internas_Click"/>
         <Button x:Name="Externas" Content="Ventas Externas" HorizontalAlignment="Left" Margin="37,341,0,0" VerticalAlignment="Top" Width="140" Click="Externas_Click"/>
-        <Button x:Name="Todas" Content="Todas las Ventas" HorizontalAlignment="Left" Margin="175,341,0,0" VerticalAlignment="Top" Width="145" Click="Todas_Click"/>
         <Button x:Name="Reporte" Content="Generar Reporte" HorizontalAlignment="Left" Margin="37,365,0,0" VerticalAlignment="Top" Width="423" Click="Reporte_Click"/>
         <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="308" Margin="37,28,0,0" VerticalAlignment="Top" Width="423"/>
     </Grid>

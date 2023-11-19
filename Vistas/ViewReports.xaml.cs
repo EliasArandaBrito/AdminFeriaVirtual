@@ -14,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Collections;
-using System.Collections.Generic;
 
 namespace Vistas
 {
@@ -30,18 +29,13 @@ namespace Vistas
         {
             InitializeComponent();
             salida.IsReadOnly = true;
-            salida.DataContext = vc.GetAllVentas();
+            salida.ItemsSource = vc.GetVentaByType("Venta Externa");
         }
 
 
         private void Externas_Click(object sender, RoutedEventArgs e)
         {
             salida.ItemsSource = vc.GetVentaByType("Venta Externa");
-        }
-
-        private void Todas_Click(object sender, RoutedEventArgs e)
-        {
-            salida.ItemsSource = vc.GetAllVentas();
         }
 
         private void Internas_Click(object sender, RoutedEventArgs e)

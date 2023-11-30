@@ -8,7 +8,7 @@
         Title="ViewVentaInterna" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="salida" Height="310" Margin="335,31,0,0" VerticalAlignment="Top" SelectionChanged="salida_SelectionChanged" HorizontalAlignment="Left" Width="423"/>
-        <Button x:Name="CambiaEstado" Content="Cambiar Estado" Margin="33,66,0,0" VerticalAlignment="Top" Click="CambiaEstado_Click" HorizontalAlignment="Left" Width="241"/>
+        <Button x:Name="CambiaEstado" Content="Cambiar Estado" Margin="33,66,0,0" VerticalAlignment="Top" Click="CambiaEstado_Click" HorizontalAlignment="Left" Width="241" Background="#FF77B54E" Foreground="White"/>
         <Label Content="Estado Venta" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="EstadoVenta" HorizontalAlignment="Left" Margin="151,38,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Completada" HorizontalAlignment="Left" Width="118.4"/>
@@ -19,8 +19,8 @@
         </ComboBox>
         <Label Content="Transporte" HorizontalAlignment="Left" Margin="30,102,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="Transportista" HorizontalAlignment="Left" Height="23" Margin="151,105,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Left" Margin="30,128,0,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click"/>
-        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="30,263,0,0" VerticalAlignment="Top" Width="244" Click="Start_Click"/>
+        <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Left" Margin="30,128,0,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="30,263,0,0" VerticalAlignment="Top" Width="244" Click="Start_Click" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>

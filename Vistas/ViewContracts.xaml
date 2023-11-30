@@ -17,10 +17,10 @@
         <TextBox x:Name="Cantidad" HorizontalAlignment="Left" Height="26" Margin="24,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" PreviewTextInput="NumberValidationTextBox"/>
         <TextBlock HorizontalAlignment="Left" Margin="24,304,0,0" TextWrapping="Wrap" Text="Cantidad" VerticalAlignment="Top" Height="16" Width="138"/>
         <DataGrid x:Name="salidacon" HorizontalAlignment="Left" Height="371" Margin="442,24,0,0" VerticalAlignment="Top" Width="340" SelectionChanged="salidacon_SelectionChanged"/>
-        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="309,417,0,0" VerticalAlignment="Top" Width="87" Click="Actualizar_Click" />
-        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="23,417,0,0" VerticalAlignment="Top" Width="96" Click="Agregar_Click" />
+        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="309,417,0,0" VerticalAlignment="Top" Width="87" Click="Actualizar_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="23,417,0,0" VerticalAlignment="Top" Width="96" Click="Agregar_Click" Background="#FF77B54E" Foreground="White"/>
         <DataGrid x:Name="salidacli" HorizontalAlignment="Left" Height="151" Margin="24,24,0,0" VerticalAlignment="Top" Width="375" SelectionChanged="salidacli_SelectionChanged" />
-        <Button x:Name="Publicar" Content="Publicar Contrato" HorizontalAlignment="Left" Margin="442,417,0,0" VerticalAlignment="Top" Width="140" Click="Publicar_Click" />
+        <Button x:Name="Publicar" Content="Publicar Contrato" HorizontalAlignment="Left" Margin="442,417,0,0" VerticalAlignment="Top" Width="140" Click="Publicar_Click" Background="#FF77B54E" Foreground="White"/>
         <DatePicker x:Name="Inicio" HorizontalAlignment="Left" Margin="228,263,0,0" VerticalAlignment="Top" Width="168"/>
         <DatePicker x:Name="Fin" HorizontalAlignment="Left" Margin="228,325,0,0" VerticalAlignment="Top" Width="168"/>
         <TextBlock HorizontalAlignment="Left" Margin="228,185,0,0" TextWrapping="Wrap" Text="Tipo Contrato" VerticalAlignment="Top" Height="16" Width="82"/>

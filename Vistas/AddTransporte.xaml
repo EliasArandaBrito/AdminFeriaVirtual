@@ -30,7 +30,7 @@
         <Label Content="Fecha de Transporte" HorizontalAlignment="Left" Margin="47,98,0,0" VerticalAlignment="Top"/>
         <Label Content="Estado de Transporte" HorizontalAlignment="Left" Margin="47,191,0,0" VerticalAlignment="Top"/>
         <Label Content="Medio de Transporte" HorizontalAlignment="Left" Margin="47,222,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Comenzar" Content="Comenzar Transporte" HorizontalAlignment="Left" Margin="180,272,0,0" VerticalAlignment="Top" Width="144" Click="Comenzar_Click"/>
+        <Button x:Name="Comenzar" Content="Comenzar Transporte" HorizontalAlignment="Left" Margin="180,272,0,0" VerticalAlignment="Top" Width="144" Click="Comenzar_Click" Background="#FF77B54E" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="47,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="277" FontWeight="Bold" FontSize="24" IsEnabled="False" TextAlignment="Center"><Run Text="Agregar "/><Run Text="Transporte"/></TextBlock>
 
     </Grid>

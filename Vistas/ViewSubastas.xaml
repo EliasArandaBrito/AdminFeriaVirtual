@@ -27,8 +27,8 @@
         <Label Content="Capacidad" HorizontalAlignment="Left" Margin="604,220,0,0" VerticalAlignment="Top" Height="23"/>
         <Label Content="Precio" HorizontalAlignment="Left" Margin="604,276,0,0" VerticalAlignment="Top" Height="23"/>
         <Label Content="Transportista" HorizontalAlignment="Left" Margin="604,304,0,0" VerticalAlignment="Top" Height="23"/>
-        <Button x:Name="Cancelar" Content="Cancelar Subasta" HorizontalAlignment="Left" Margin="56,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Cancelar_Click"/>
-        <Button x:Name="Aceptar" Content="Aceptar Medio" HorizontalAlignment="Left" Margin="484,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Aceptar_Click"/>
+        <Button x:Name="Cancelar" Content="Cancelar Subasta" HorizontalAlignment="Left" Margin="56,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Cancelar_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Aceptar" Content="Aceptar Medio" HorizontalAlignment="Left" Margin="484,356,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Aceptar_Click" Background="#FF77B54E" Foreground="White"/>
         <TextBox x:Name="transportista" HorizontalAlignment="Left" Height="23" Margin="709,304,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Refrigeración" HorizontalAlignment="Left" Margin="604,248,0,0" VerticalAlignment="Top" Height="23"/>
 

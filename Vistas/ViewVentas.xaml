@@ -9,10 +9,9 @@
     <Grid HorizontalAlignment="Right" Margin="0,0,-0.4,0" Width="794">
         <Grid.RowDefinitions>
             <RowDefinition/>
-            <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="salida" HorizontalAlignment="Right" Height="310" Margin="0,31,36,0" VerticalAlignment="Top" Width="423" SelectionChanged="salida_SelectionChanged" Grid.RowSpan="2"/>
-        <Button x:Name="CambiaEstado" Content="Cambiar Estado" HorizontalAlignment="Right" Margin="0,59,520,0" VerticalAlignment="Top" Width="241" Click="CambiaEstado_Click" Grid.RowSpan="2"/>
+        <DataGrid x:Name="salida" HorizontalAlignment="Right" Height="310" Margin="0,31,36,0" VerticalAlignment="Top" Width="423" SelectionChanged="salida_SelectionChanged" />
+        <Button x:Name="CambiaEstado" Content="Cambiar Estado" HorizontalAlignment="Right" Margin="0,59,520,0" VerticalAlignment="Top" Width="241" Click="CambiaEstado_Click" Background="#FF77B54E" Foreground="White"/>
         <Label Content="Estado Venta" HorizontalAlignment="Right" Margin="0,28,686,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="EstadoVenta" HorizontalAlignment="Right" Margin="0,31,523,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Completada" HorizontalAlignment="Left" Width="118.4"/>
@@ -21,10 +20,10 @@
             <ComboBoxItem Content="Aprobada" HorizontalAlignment="Left" Width="118.4"/>
             <ComboBoxItem Content="Pendiente" HorizontalAlignment="Left" Width="118.4"/>
         </ComboBox>
-        <Label Content="Transporte" HorizontalAlignment="Right" Margin="0,86.1,698,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <TextBox x:Name="Transportista" HorizontalAlignment="Right" Height="23" Margin="0,94.1,523,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False" Grid.Row="1"/>
-        <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Right" Margin="0,117.1,523,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click" Grid.Row="1"/>
-        <Button Content="Ver Transporte" HorizontalAlignment="Right" Margin="0,142,523,0" VerticalAlignment="Top" Width="242" Grid.Row="1"/>
+        <Label Content="Transporte" HorizontalAlignment="Right" Margin="0,156,698,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Transportista" HorizontalAlignment="Right" Height="23" Margin="0,164,523,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Right" Margin="0,188,523,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Ver Transporte" HorizontalAlignment="Right" Margin="0,212,523,0" VerticalAlignment="Top" Width="242" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>

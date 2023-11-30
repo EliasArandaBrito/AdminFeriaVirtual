@@ -34,26 +34,53 @@ namespace Vistas
                 Console.WriteLine(Password.Password);
                 CUsuario usuario = new CUsuario();
                 int loginStatus = usuario.LoginCheckTipo(Username.Text, Password.Password, 3);
+                int loginStatusCon = usuario.LoginCheckTipo(Username.Text, Password.Password, 6);
+                bool isconsultor = false;
 
-                switch (loginStatus)
+                switch (loginStatusCon)
                 {
                     case -1:
                         MessageBox.Show("Login denegado. Verifique Usuario y Contraseña", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
                         break;
                     case -2:
-                        MessageBox.Show("Login denegado. Usuario no autorizado", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                        isconsultor = false;
                         break;
                     case -3:
                         MessageBox.Show("Error no identificado, corregir código", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
                         break;
                     case 0:
-                        MainMenu menu = new MainMenu();
-                        menu.Show();
+                        ViewReports reports = new ViewReports();
+                        reports.Show();
+                        isconsultor = true;
                         break;
                     default:
                         // Handle any other cases here
+                    
                         break;
                 }
+                if (!isconsultor)
+                {
+                    switch (loginStatus)
+                    {
+                        case -1:
+                            MessageBox.Show("Login denegado. Verifique Usuario y Contraseña", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                            break;
+                        case -2:
+                            MessageBox.Show("Login denegado. Usuario no autorizado", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                            break;
+                        case -3:
+                            MessageBox.Show("Error no identificado, corregir código", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                            break;
+                        case 0:
+                            MainMenu menu = new MainMenu();
+                            menu.Show();
+                            break;
+                        default:
+                            // Handle any other cases here
+                            break;
+                    }
+                }
+                
             }
            
         }

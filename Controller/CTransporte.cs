@@ -36,7 +36,7 @@ namespace Controller
                 Cnn.conexion.Close();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }

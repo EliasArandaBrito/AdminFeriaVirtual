@@ -20,7 +20,7 @@
         <Label Content="Alto" HorizontalAlignment="Left" Margin="48,204,0,0" VerticalAlignment="Top" Height="23"/>
         <Label Content="Fecha Fin" HorizontalAlignment="Left" Margin="48,119,0,0" VerticalAlignment="Top" Height="23"/>
         <TextBlock HorizontalAlignment="Left" Margin="48,10,0,0" TextWrapping="Wrap" Text="Agregar Subasta" VerticalAlignment="Top" Height="49" Width="228" FontWeight="Bold" FontSize="24" IsEnabled="False" TextAlignment="Center"/>
-        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="201,309,0,0" VerticalAlignment="Top" Width="75" Click="Agregar_Click"/>
+        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="201,309,0,0" VerticalAlignment="Top" Width="75" Click="Agregar_Click" Background="#FF77B54E" Foreground="White"/>
         <Label Content="Capacidad" HorizontalAlignment="Left" Margin="48,232,0,0" VerticalAlignment="Top" Height="23"/>
         <TextBox x:Name="Capacidad" HorizontalAlignment="Left" Height="23" Margin="132,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
         <CheckBox x:Name="Refrigerado" Content="" Margin="132,274,0,0" VerticalAlignment="Top" Height="15" HorizontalAlignment="Left" Width="19"/>

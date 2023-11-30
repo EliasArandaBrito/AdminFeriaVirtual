@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainMenu" Height="339.278" Width="583.634">
     <Grid>
-        <Button Content="Contratos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click"/>
-        <Button Content="Usuarios" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_5"/>
-        <Button Content="Subastas" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_1"/>
-        <Button Content="Ventas Externas" HorizontalAlignment="Left" Margin="200,139,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_3"/>
-        <Button Content="Postulaciones" HorizontalAlignment="Left" Margin="390,10,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_2"/>
-        <Button Content="Reportes" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top" Width="73" Height="36" Click="Button_Click_4"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="497,247,0,0" VerticalAlignment="Top" Width="67" Height="36" Click="Button_Click_9"/>
-        <Button Content="Ventas Internas" HorizontalAlignment="Left" Margin="200,196,0,0" VerticalAlignment="Top" Width="174" Height="45" Click="Button_Click_6"/>
-        <Button Content="Transportes" HorizontalAlignment="Left" Margin="200,70,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_7" />
-        <Button Content="Pagos" HorizontalAlignment="Left" Margin="390,139,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_8" />
+        <Button Content="Contratos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Usuarios" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_5" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Subastas" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_1" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Ventas Externas" HorizontalAlignment="Left" Margin="200,139,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_3" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Postulaciones" HorizontalAlignment="Left" Margin="390,10,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_2" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Reportes" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top" Width="73" Height="36" Click="Button_Click_4" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="491,247,0,0" VerticalAlignment="Top" Width="73" Height="36" Click="Button_Click_9" Background="#FF77B54E" Foreground="White" RenderTransformOrigin="-5.024,1.367"/>
+        <Button Content="Ventas Internas" HorizontalAlignment="Left" Margin="200,196,0,0" VerticalAlignment="Top" Width="174" Height="45" Click="Button_Click_6" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Transportes" HorizontalAlignment="Left" Margin="200,70,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="Button_Click_7" Background="#FF77B54E" Foreground="White"/>
+        <Button Content="Pagos" HorizontalAlignment="Left" Margin="390,139,0,0" VerticalAlignment="Top" Width="174" Height="103" Click="Button_Click_8" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>

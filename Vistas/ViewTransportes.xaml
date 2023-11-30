@@ -8,7 +8,7 @@
         Title="ViewTransportes" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="339" Margin="366,39,0,0" VerticalAlignment="Top" Width="384" SelectionChanged="DataGrid_SelectionChanged"/>
-        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="180,295,0,0" VerticalAlignment="Top" Width="144" Height="23" Click="Actualizar_Click"/>
+        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="180,295,0,0" VerticalAlignment="Top" Width="144" Height="23" Click="Actualizar_Click" Background="#FF77B54E" Foreground="White"/>
         <ComboBox x:Name="TipoTransporte" HorizontalAlignment="Left" Margin="180,70,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="0">
             <ComboBoxItem Content="Nacional" HorizontalAlignment="Left" Width="142.4"/>
             <ComboBoxItem Content="Internacional Terrestre" HorizontalAlignment="Left" Width="142.4"/>

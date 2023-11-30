@@ -173,7 +173,15 @@ namespace Vistas
             if (dguser.SelectedIndex != -1)
             {
                 List<Usuario> user = controller.GetAllUsuarios();
-                controller.EliminarUsuario(user[dguser.SelectedIndex].Usuarioid);
+                try
+                {
+                    controller.EliminarUsuario(user[dguser.SelectedIndex].Usuarioid);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    MessageBox.Show("Error al eliminar usuario. Asegúrese que el usuario no tenga registros asociados", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
             else MessageBox.Show("Favor seleccione un Usuario para eliminar", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
             dguser.ItemsSource = controller.GetAllUsuarios();

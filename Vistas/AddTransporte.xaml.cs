@@ -24,8 +24,10 @@ namespace Vistas
         int ventaid;
         int subid;
         MedioTransporte m = new MedioTransporte();
+        Subasta_Medio submedio = new Subasta_Medio();
         CTransporte control = new CTransporte();
         CSubasta controlsub = new CSubasta();
+        CVenta controlventa = new CVenta();
         Transporte t = new Transporte();
         public AddTransporte(int idsub, int idventa, string origen, string destino, MedioTransporte medio)
         {
@@ -38,6 +40,9 @@ namespace Vistas
             Destino.Text = destino;
             ventaid = idventa;
             subid = idsub;
+            submedio.Medioid = medio.Medioid;
+            submedio.Subastaid = idsub;
+            submedio.Selected = 0;
         }
 
         private void Comenzar_Click(object sender, RoutedEventArgs e)
@@ -53,6 +58,9 @@ namespace Vistas
             if (control.InsertarTransporte(t, ventaid))
             {
                 controlsub.FinalizarSubasta(subid, 1);
+                submedio.Selected = 1;
+                controlsub.ActualizarSubastaMedio(submedio);
+                controlventa.EstadoVenta(ventaid, 2);
                 this.Close();
             }
         }

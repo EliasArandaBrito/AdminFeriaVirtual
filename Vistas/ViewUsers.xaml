@@ -10,8 +10,8 @@
         <DataGrid x:Name="dguser" HorizontalAlignment="Left" Height="321" Margin="290,37,0,0" VerticalAlignment="Top" Width="464" SelectionChanged="dguser_SelectionChanged"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="40,37,0,0" VerticalAlignment="Top" Width="82"/>
         <TextBox x:Name="Nombre" HorizontalAlignment="Left" Height="23" Margin="127,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="40,329,0,0" VerticalAlignment="Top" Width="88" Click="Agregar_Click"/>
-        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="159,330,0,0" VerticalAlignment="Top" Width="88" Click="Actualizar_Click" />
+        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="40,329,0,0" VerticalAlignment="Top" Width="88" Click="Agregar_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="159,330,0,0" VerticalAlignment="Top" Width="88" Click="Actualizar_Click" Background="#FF77B54E" Foreground="White"/>
         <Label Content="Apellido" HorizontalAlignment="Left" Margin="40,68,0,0" VerticalAlignment="Top" Width="82"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Margin="40,131,0,0" VerticalAlignment="Top" Width="82"/>
         <TextBox x:Name="Apellido" HorizontalAlignment="Left" Height="23" Margin="127,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
@@ -31,7 +31,7 @@
         <Label Content="Dirección" HorizontalAlignment="Left" Margin="40,162,0,0" VerticalAlignment="Top" Width="82"/>
         <Label Content="Teléfono" HorizontalAlignment="Left" Margin="40,192,0,0" VerticalAlignment="Top" Width="82"/>
         <Label Content="Tipo" HorizontalAlignment="Left" Margin="40,223,0,0" VerticalAlignment="Top" Width="82"/>
-        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="679,363,0,0" VerticalAlignment="Top" Width="75" Click="Eliminar_Click"/>
+        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="679,363,0,0" VerticalAlignment="Top" Width="75" Click="Eliminar_Click" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>

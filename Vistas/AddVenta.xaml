@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Comenzar Venta Externa" Height="320.4" Width="314.117">
     <Grid>
-        <Label Content="Tipo de Venta" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Tipo de Venta" Margin="30,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="84"/>
         <Label Content="Fecha de Venta" HorizontalAlignment="Left" Margin="30,41,0,0" VerticalAlignment="Top"/>
         <Label Content="Total Venta" HorizontalAlignment="Left" Margin="30,72,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="FechaVenta" HorizontalAlignment="Left" Margin="151,43,0,0" VerticalAlignment="Top"/>
@@ -29,6 +29,6 @@
         <TextBox x:Name="Transportista" HorizontalAlignment="Left" Height="23" Margin="151,136,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
         <TextBox x:Name="Productor" HorizontalAlignment="Left" Height="23" Margin="151,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
         <TextBox x:Name="Cliente" HorizontalAlignment="Left" Height="23" Margin="151,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="151,248,0,0" VerticalAlignment="Top" Width="120" Click="Start_Click"/>
+        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="151,248,0,0" VerticalAlignment="Top" Width="120" Click="Start_Click" Background="#FF77B54E" Foreground="White"/>
     </Grid>
 </Window>

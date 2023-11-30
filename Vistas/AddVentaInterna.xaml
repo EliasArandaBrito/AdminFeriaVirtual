@@ -20,7 +20,7 @@
             <ComboBoxItem Content="Aprobada" HorizontalAlignment="Left" Width="118.4"/>
             <ComboBoxItem Content="Pendiente" HorizontalAlignment="Left" Width="118.4"/>
         </ComboBox>
-        <ComboBox x:Name="TipoVenta" HorizontalAlignment="Left" Margin="151,13,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="0" IsEnabled="False">
+        <ComboBox x:Name="TipoVenta" HorizontalAlignment="Left" Margin="151,13,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="0" IsEnabled="False" >
             <ComboBoxItem Content="Venta Interna" HorizontalAlignment="Left" Width="118.4" IsEnabled="False"/>
         </ComboBox>
         <Label Content="Transporte" HorizontalAlignment="Left" Margin="30,134,0,0" VerticalAlignment="Top"/>
@@ -29,7 +29,7 @@
         <TextBox x:Name="Transportista" HorizontalAlignment="Left" Height="23" Margin="151,136,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
         <TextBox x:Name="Productor" HorizontalAlignment="Left" Height="23" Margin="151,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
         <TextBox x:Name="Cliente" HorizontalAlignment="Left" Height="23" Margin="151,198,0,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="144" IsEnabled="False"/>
-        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="151,289,0,0" VerticalAlignment="Top" Width="144" Click="Start_Click"/>
+        <Button x:Name="Start" Content="Comenzar Venta" HorizontalAlignment="Left" Margin="151,289,0,0" VerticalAlignment="Top" Width="144" Click="Start_Click" Background="#FF77B54E" Foreground="White"/>
         <DataGrid x:Name="Salida" HorizontalAlignment="Left" Height="254" Margin="345,13,0,0" VerticalAlignment="Top" Width="419" SelectionChanged="DataGrid_SelectionChanged"/>
         <Label Content="Producto" HorizontalAlignment="Left" Margin="30,227,0,0" VerticalAlignment="Top"/>
         <Label Content="Cantidad" HorizontalAlignment="Left" Margin="30,258,0,0" VerticalAlignment="Top"/>

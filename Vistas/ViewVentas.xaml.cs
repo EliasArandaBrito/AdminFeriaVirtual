@@ -128,6 +128,10 @@ namespace Vistas
                 add.Show();
             }
         }
-            
+
+        private void EstadoVenta_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

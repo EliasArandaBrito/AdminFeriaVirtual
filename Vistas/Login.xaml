@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
-        Title="Login" Height="357.2" Width="775.2">
+        Title="Login" Height="734.9" Width="1238.4">
     <Grid Margin="0,0,3.8,6.2">
-        <Image HorizontalAlignment="Left" Height="280" Margin="42,30,0,0" VerticalAlignment="Top" Width="294" Source="Logo.png"/>
-        <Label Content="Administración&#xD;&#xA;Maipo Grande" HorizontalAlignment="Left" Margin="395,44,0,0" VerticalAlignment="Top" Height="110" Width="361" FontSize="36" FontFamily="Times New Roman" FontWeight="Bold" Foreground="#FFADBD20" Background="White" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated"/>
-        <TextBox x:Name="Username" HorizontalAlignment="Left" Height="23" Margin="528,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-        <Label Content="Nombre de Usuario" HorizontalAlignment="Left" Margin="408,168,0,0" VerticalAlignment="Top" Width="115"/>
-        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="408,196,0,0" VerticalAlignment="Top" Width="115"/>
-        <Button Content="Ingresar" HorizontalAlignment="Left" Margin="643,235,0,0" VerticalAlignment="Top" Width="95" Height="30" Background="#FFD5D5D5" Click="Button_Click"/>
-        <PasswordBox  x:Name="Password" HorizontalAlignment="Left" Margin="528,196,0,0" VerticalAlignment="Top" Width="210" Height="24"/>
+        <Image HorizontalAlignment="Center" Height="234" Margin="466,10,459.8,273.8" VerticalAlignment="Center" Width="232" Source="Logo.png"/>
+        <TextBox x:Name="Username" HorizontalAlignment="Center" Height="23" Margin="538,331,409.8,163.8" TextWrapping="Wrap" VerticalAlignment="Center" Width="210"/>
+        <Label Content="Nombre de Usuario" HorizontalAlignment="Center" Margin="418,331,624.8,161.8" VerticalAlignment="Center" Width="115"/>
+        <Label Content="Contraseña" HorizontalAlignment="Center" Margin="418,359,624.8,134.8" VerticalAlignment="Center" Width="115"/>
+        <Button Content="Ingresar" HorizontalAlignment="Center" Margin="538,419,524.8,68.8" VerticalAlignment="Center" Width="95" Height="30"  Click="Button_Click" FontWeight="Bold" Background="#FF77B54E" Foreground="White" />
+        <PasswordBox  x:Name="Password" HorizontalAlignment="Center" Margin="538,359,409.8,134.8" VerticalAlignment="Center" Width="210" Height="24"/>
+        <TextBlock HorizontalAlignment="Center" Margin="340,249,317.8,215.8" TextWrapping="Wrap" VerticalAlignment="Center" Height="53" Width="500" FontSize="36"><Run Text="Administración"/><Run Text=" "/><Run Text="Maipo Grande"/></TextBlock>
     </Grid>
 </Window>

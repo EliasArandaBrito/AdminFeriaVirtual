@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="ViewReports" Height="450" Width="500.949">
     <Grid>
-        <Button x:Name="Internas" Content="Ventas Internas" HorizontalAlignment="Left" Margin="320,341,0,0" VerticalAlignment="Top" Width="140" Click="Internas_Click"/>
-        <Button x:Name="Externas" Content="Ventas Externas" HorizontalAlignment="Left" Margin="37,341,0,0" VerticalAlignment="Top" Width="140" Click="Externas_Click"/>
-        <Button x:Name="Reporte" Content="Generar Reporte" HorizontalAlignment="Left" Margin="37,365,0,0" VerticalAlignment="Top" Width="423" Click="Reporte_Click"/>
+        <Button x:Name="Internas" Content="Ventas Internas" HorizontalAlignment="Left" Margin="320,341,0,0" VerticalAlignment="Top" Width="140" Click="Internas_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Externas" Content="Ventas Externas" HorizontalAlignment="Left" Margin="37,341,0,0" VerticalAlignment="Top" Width="140" Click="Externas_Click" Background="#FF77B54E" Foreground="White"/>
+        <Button x:Name="Reporte" Content="Generar Reporte" HorizontalAlignment="Left" Margin="37,365,0,0" VerticalAlignment="Top" Width="423" Click="Reporte_Click" Background="#FF77B54E" Foreground="White"/>
         <DataGrid x:Name="salida" HorizontalAlignment="Left" Height="308" Margin="37,28,0,0" VerticalAlignment="Top" Width="423"/>
     </Grid>
 </Window>

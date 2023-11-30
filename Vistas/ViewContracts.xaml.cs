@@ -223,23 +223,27 @@ namespace Vistas
 
         private void Publicar_Click(object sender, RoutedEventArgs e)
         {
-            int z;
+            int z = 0;
             List<Contrato> con = controller_con.GetAllContratos();
            
-            switch (con[salidacon.SelectedIndex].Tipocontrato)
+            if (salidacon.SelectedIndex!= -1)
             {
-                case "Contrato de Productor":
-                    z = 1;
-                    break;
-                case "Contrato de Demanda":
-                    z = 2;
-                    break;
-                default:
-                    z = 0;
-                    break;
+                switch (con[salidacon.SelectedIndex].Tipocontrato)
+                {
+                    case "Contrato de Productor":
+                        z = 1;
+                        break;
+                    case "Contrato de Demanda":
+                        z = 2;
+                        break;
+                    default:
+                        z = 0;
+                        break;
+                }
             }
+            else MessageBox.Show("Favor seleccionar un contrato", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
 
-            if(z == 2)
+            if (z == 2)
             {
                 if (con[salidacon.SelectedIndex].Published == 0)
                 {

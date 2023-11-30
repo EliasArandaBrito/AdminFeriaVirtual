@@ -23,7 +23,6 @@
         <Label Content="Transporte" HorizontalAlignment="Right" Margin="0,156,698,0" VerticalAlignment="Top"/>
         <TextBox x:Name="Transportista" HorizontalAlignment="Right" Height="23" Margin="0,164,523,0" TextWrapping="Wrap" Text="Por Definir" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
         <Button x:Name="ComenzarSubasta" Content="Comenzar Subasta" HorizontalAlignment="Right" Margin="0,188,523,0" VerticalAlignment="Top" Width="241" Click="ComenzarSubasta_Click" Background="#FF77B54E" Foreground="White"/>
-        <Button Content="Ver Transporte" HorizontalAlignment="Right" Margin="0,212,523,0" VerticalAlignment="Top" Width="242" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>

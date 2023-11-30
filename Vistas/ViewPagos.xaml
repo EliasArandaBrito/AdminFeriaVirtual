@@ -18,7 +18,6 @@
         <Label Content="Total Pagado" HorizontalAlignment="Left" Margin="29,136,0,0" VerticalAlignment="Top" Height="33"/>
         <Label Content="Id Venta" HorizontalAlignment="Left" Margin="29,176,0,0" VerticalAlignment="Top" Height="34"/>
         <Label Content="Id Usuario" HorizontalAlignment="Left" Margin="29,217,0,0" VerticalAlignment="Top" Height="33"/>
-        <Button x:Name="Actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="188,281,0,0" VerticalAlignment="Top" Width="75" Click="Actualizar_Click" Background="#FF77B54E" Foreground="White"/>
 
     </Grid>
 </Window>
